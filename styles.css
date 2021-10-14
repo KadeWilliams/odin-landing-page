@@ -1,7 +1,8 @@
 * {
-    border: 1px solid red;
-    color: #f9faf8;
-
+    /* border: 1px solid red; */
+    /* color: #f9faf8; */
+    margin: 0;
+    font-family: 'Roboto', arial, sans-serif;
 }
 
 img {
@@ -12,21 +13,51 @@ img {
 ul {
     list-style-type: none;
     padding: 0;
+    align-items: center;
 }
 
 li {
     list-style: none;
     padding: 0 10px;
+    color: #F9FAF8;
+}
+
+h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.left-content h2 {
+    font-size: 48px;
+    font-weight:800;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.left-content {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: #F9FAF8;
+
 }
 
 button {
-
     background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 4px;
+    width: 82px;
+    height: 24px;
+}
+
+.navbar {
+    background-color: #1F2937;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 10px;
 }
 
 .navbar,
@@ -38,6 +69,16 @@ button {
 .header {
     display: flex;
     justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.header img {
+    padding-left: 25px;
 }
 
 .information {
@@ -45,6 +86,19 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 20px;
+    padding-bottom: 75px;
+}
+
+.information h2 {
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.information p {
+    padding-top: 10px;
 }
 
 .cards {
@@ -53,20 +107,42 @@ button {
 }
 
 .card {
-    width: 150px;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
     flex-wrap: wrap;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.card div {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border-radius: 8px;
+    border: 2px solid #3882f6;
+}
+
+.inspiration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 .inspiration div {
-    text-align: center;
     width: 50%;
     margin: auto;
 }
 
 .thor {
     text-align: right !important;
+    font-weight: bold;
 }
 
 .action { 
@@ -78,6 +154,9 @@ button {
     background-color: #3882f6;
     border-radius: 4px;
     align-items: center;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    color: #f9faf8;
 }
 
 .action button {
@@ -87,7 +166,16 @@ button {
     height: 24px;
 }
 
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
 footer {
     display: flex;
     justify-content: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
