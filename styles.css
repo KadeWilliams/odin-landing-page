@@ -46,6 +46,7 @@ a {
 }
 
 button {
+    border: none;
     background-color: #3882f6;
     color: #F9FAF8;
     border-radius: 4px;
@@ -79,6 +80,10 @@ button {
 
 .header img {
     padding-left: 25px;
+}
+
+.header p {
+    padding-bottom: 10px;
 }
 
 .information {
@@ -160,6 +165,7 @@ button {
 }
 
 .action button {
+    border: 1px solid;
     border-color: #f9faf8;
     border-radius: 4px;
     width: 82px;
